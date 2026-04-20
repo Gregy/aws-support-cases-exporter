@@ -1,5 +1,9 @@
 # AWS Support Cases Exporter
 
+> **Warning:** This tool uses undocumented internal AWS APIs that may change or break at any time without notice. It is not endorsed by or affiliated with AWS. Use at your own risk.
+
+> **Disclaimer:** This project was 100% vibecoded with [Claude Code](https://claude.ai/claude-code). No humans wrote any of this code. It worked on the first real run (after a couple of API response format fixes). Review before trusting.
+
 Exports all AWS Support cases (metadata + full conversation threads) to JSON.
 
 AWS does not expose its Support Center data through a public API unless you have a Business or Enterprise support plan. This tool works around that by using the same internal API that the AWS Support Console uses in your browser, authenticated via your existing browser session cookies.
